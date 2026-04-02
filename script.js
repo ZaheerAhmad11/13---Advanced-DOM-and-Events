@@ -1,4 +1,8 @@
 'use strict';
+<<<<<<< HEAD
+=======
+
+>>>>>>> bb693b1a50062b4d66659383e85c40a88bf2b314
 ///////////////////////////////////////
 // Modal window
 
@@ -6,10 +10,15 @@ const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
 const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
+<<<<<<< HEAD
 const btnScrollTo = document.querySelector('.btn--scroll-to');
 
 const openModal = function (e) {
   e.preventDefault();
+=======
+
+const openModal = function () {
+>>>>>>> bb693b1a50062b4d66659383e85c40a88bf2b314
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
 };
@@ -19,7 +28,12 @@ const closeModal = function () {
   overlay.classList.add('hidden');
 };
 
+<<<<<<< HEAD
 btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
+=======
+for (let i = 0; i < btnsOpenModal.length; i++)
+  btnsOpenModal[i].addEventListener('click', openModal);
+>>>>>>> bb693b1a50062b4d66659383e85c40a88bf2b314
 
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
@@ -28,6 +42,7 @@ document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
     closeModal();
   }
+<<<<<<< HEAD
 });
 
 /////////////////////////////////////////////////
@@ -139,3 +154,6 @@ document.querySelector('.nav__links').addEventListener('click', function(e){
 });
 // body color
 // document.body.style.background = `linear-gradient(to right, ${randomColor(0,255)}, ${randomColor(0,255)}) `;
+=======
+});
+>>>>>>> bb693b1a50062b4d66659383e85c40a88bf2b314
