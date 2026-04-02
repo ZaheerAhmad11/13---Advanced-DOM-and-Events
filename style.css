@@ -173,11 +173,7 @@ img {
 /* HEADER */
 .header {
   padding: 0 3rem;
-<<<<<<< HEAD
   height: 90vh;
-=======
-  height: 100vh;
->>>>>>> bb693b1a50062b4d66659383e85c40a88bf2b314
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -675,10 +671,6 @@ h4 {
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
-<<<<<<< HEAD
 
 }
 
-=======
-}
->>>>>>> bb693b1a50062b4d66659383e85c40a88bf2b314
